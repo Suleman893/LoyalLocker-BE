@@ -1,0 +1,26 @@
+let models = [
+  require("./user.js"),
+  require("./userRoles.js"),
+  require("./merchant.js"),
+  require("./merchantUsers.js"),
+  require("./merchantStores.js"),
+  require("./earningRules.js"),
+  require("./transaction.js"),
+  require("./events.js"),
+  require("./campaign.js"),
+  require("./segments.js"),
+  require("./campaignEmailTemplate.js"),
+  require("./pointTransfer.js"),
+  require("./journey.js"),
+  require("./journeySchedule.js"),
+  require("./offers.js"),
+  require("./rewards.js"),
+  require("./referFriend.js"),
+  require("./totalConsumerBalance.js"),
+  require("./merchantProducts.js"),
+  require("./storeRules.js"),
+  require("./coupon.js"),
+  require("./merchantCampaignRecord.js"),
+];
+
+module.exports = models;
